@@ -1,0 +1,129 @@
+#homepage{
+    text-align: center;
+}
+.btn-facebook {
+    background-color: #4aa1f3;
+    border-radius : 0%;
+    color:#fff;
+    width : auto;
+}
+.btn-facebook:link,
+.btn-facebook:visited{
+    text-decoration: none;
+    background-color: #4aa1f3;
+    color:#fff;
+}
+.btn-gplus{
+    background-color: #e44b34;
+    border-radius : 0%;
+    color:#fff;
+    width : auto;
+}
+.btn-gplus:link,
+.btn-gplus:visited{
+    text-decoration: none;
+    background-color: #e44b34;
+    color:#fff;
+}
+.btn-linkedin{
+    background-color:royalblue;
+    border-radius : 0%;
+    color:#fff;
+    width : auto;
+}
+.btn-linkedin:link,
+.btn-linkedin:visited{
+    text-decoration: none;
+    background-color:royalblue;
+    color:#fff;
+}
+#welcome{
+    color:#4aa1f3 ;
+}
+h1{
+    text-align: center;
+}
+#main{
+    margin-top: 60px;
+    margin-bottom:50px ;
+}
+.col-sm-4{
+    margin-bottom: 15px;
+}
+#address{
+    color:green;
+}
+.post-user-pic{
+    width: 100px;
+    height: auto;
+}
+.red{
+    color:green;
+}
+.reddish{
+    color: red;
+}
+#comment-user-picture{
+    width: 65px;
+    height: auto;
+}
+
+
+/* About Page Starts */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+.head{
+    font-family: 'Frijole', cursive;
+}
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* About Page Ended */
